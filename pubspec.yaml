@@ -38,6 +38,8 @@ dependencies:
   get:
   google_nav_bar: ^5.0.6
   badges: ^3.1.2
+  supabase_flutter: ^1.0.0
+  timeago: ^3.1.0
   profile: ^0.0.1
   dotted_border: ^2.1.0
   custom_text_field: ^0.0.3

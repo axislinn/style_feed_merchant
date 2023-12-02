@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/main/Categories.dart';
-import 'package:flutter_application_1/main/Chat.dart';
+import 'package:flutter_application_1/main/ChatHome.dart';
 import 'package:flutter_application_1/main/Dashboard.dart';
 import 'package:flutter_application_1/main/Orders.dart';
 import 'package:flutter_application_1/main/Products.dart';
@@ -20,7 +20,7 @@ class _testState extends State<test> {
     items(),
     Categories(),
     dashboard(),
-    chat()
+    ChatHome()
   ]; // to store nested tabs
   final PageStorageBucket bucket = PageStorageBucket();
   Widget currentScreen = Orders(); // Our first view in viewport
@@ -144,7 +144,7 @@ class _testState extends State<test> {
                     onPressed: () {
                       setState(() {
                         currentScreen =
-                            chat(); // if user taps on this dashboard tab will be active
+                            ChatHome(); // if user taps on this dashboard tab will be active
                         currentTab = 3;
                       });
                     },

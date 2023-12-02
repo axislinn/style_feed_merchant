@@ -112,28 +112,28 @@ class _dashboardState extends State<dashboard> {
                color: Color(0xFF31496B), // Set the background color for the header
              ),
            ),
-            ListTile(
-              leading: Icon(Icons.shopping_cart),
-              title: Text('Orders'),
-              onTap: () => Navigator.of(context).push(
-            MaterialPageRoute(builder: (context) => Orders()),
-          ),
-            ),
-            ListTile(
-              leading: Icon(Icons.shop),
-              title: Text('Items'),
-              onTap: () => Navigator.of(context).push(
-            MaterialPageRoute(builder: (context) => items()),
-          ),
-            ),
-            ListTile(
-              leading: Icon(Icons.list),
-              title: Text('Categories'),
-              onTap: () => Navigator.of(context).push(
-            MaterialPageRoute(builder: (context) => Categories()),
-          ),
-            ),
-            Divider(),
+          //   ListTile(
+          //     leading: Icon(Icons.shopping_cart),
+          //     title: Text('Orders'),
+          //     onTap: () => Navigator.of(context).push(
+          //   MaterialPageRoute(builder: (context) => Orders()),
+          // ),
+          //   ),
+          //   ListTile(
+          //     leading: Icon(Icons.shop),
+          //     title: Text('Items'),
+          //     onTap: () => Navigator.of(context).push(
+          //   MaterialPageRoute(builder: (context) => items()),
+          // ),
+          //   ),
+          //   ListTile(
+          //     leading: Icon(Icons.list),
+          //     title: Text('Categories'),
+          //     onTap: () => Navigator.of(context).push(
+          //   MaterialPageRoute(builder: (context) => Categories()),
+          // ),
+          //   ),
+          //   Divider(),
             ListTile(
               leading: Icon(Icons.settings),
               title: Text('Settings'),
