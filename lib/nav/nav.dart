@@ -34,7 +34,7 @@ class _testState extends State<test> {
         bucket: bucket,
       ),
       floatingActionButton: FloatingActionButton(
-  child: Icon(Icons.dashboard),
+  child: Icon(Icons.dashboard, color: Colors.white),
   onPressed: () {
     setState(() {
       currentScreen = dashboard();

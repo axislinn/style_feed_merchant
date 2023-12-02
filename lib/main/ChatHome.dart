@@ -45,7 +45,7 @@ class ChatHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.white,
+          backgroundColor: Color(0xFF31496B),
           title: Text('Messages', style: TextStyle(color: Colors.black),),
           // leading: IconButton(
           //   icon: Icon(Icons.arrow_back),

@@ -16,7 +16,7 @@ class _itemsState extends State<items> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFF31496B),
-        title: Text('Items'),
+        title: Text('Items', style: TextStyle(color: Colors.white)),
       ),
       body: Column(
         children: [
@@ -48,7 +48,7 @@ class _itemsState extends State<items> {
                       children: <Widget>[
                         Icon(Icons.add),
                         SizedBox(width: 10),
-                        Text('Add Items'),
+                        Text('Add Items', style: TextStyle(color: Colors.white)),
                       ],
                     ),
                   ),
