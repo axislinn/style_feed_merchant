@@ -13,7 +13,7 @@ class _CategoriesState extends State<Categories> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFF31496B),
-        title: Text('Categories'),
+        title: Text('Categories', style: TextStyle(color: Colors.white)),
       ),
       body: Column(
         children: [
@@ -45,7 +45,7 @@ class _CategoriesState extends State<Categories> {
                       children: <Widget>[
                         Icon(Icons.add),
                         SizedBox(width: 10),
-                        Text('Add Categories'),
+                        Text('Add Categories', style: TextStyle(color: Colors.white)),
                       ],
                     ),
                   ),

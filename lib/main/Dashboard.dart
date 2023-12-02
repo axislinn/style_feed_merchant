@@ -19,7 +19,7 @@ class _dashboardState extends State<dashboard> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFF31496B),
-        title: Text('Dashboard'),
+        title: Text('Dashboard', style: TextStyle(color: Colors.white)),
       ),
       body: ListView(
         padding: EdgeInsets.zero,

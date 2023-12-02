@@ -14,7 +14,7 @@ class _OrdersState extends State<Orders> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFF31496B),
-        title: Text('Orders'),
+        title: Text('Orders', style: TextStyle(color:Colors.white)),
       ),
       body: Column(
         children: [
